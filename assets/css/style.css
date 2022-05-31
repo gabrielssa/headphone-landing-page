@@ -1,0 +1,35 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    height: 400px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.header-container{
+    display:flex;
+    width: 700px;
+    justify-self: center;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 250px;
+}
+
+.header-divisor{
+    background-color:white;
+    height: 150px;
+    width: 2px;
+}
+
+.header-area{
+    
+}
