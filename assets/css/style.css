@@ -1,21 +1,22 @@
 body{
     margin:0px;
     padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
     height: 400px;
-    background-color: red;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    background: linear-gradient(90deg, #4C90B3, #9159B2);
+    color: white;
 }
 
 .header-container{
     display:flex;
     width: 700px;
     justify-self: center;
-    background-color: aqua;
     justify-content: center;
     align-items: center;
 }
@@ -31,5 +32,18 @@ header img{
 }
 
 .header-area{
-    
+    margin-left: 45px;
+}
+
+.header-area a{
+    display: inline-block;
+    padding: 7px;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.header-area a:visited{
+    color:white;
 }
