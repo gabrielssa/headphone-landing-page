@@ -71,11 +71,12 @@ section .moreinfo-header h2{
 
 .moreinfo-img img{
     margin-top: 50px;
-    width: 600px;
+    max-width: 60vw;
 }
 
 .moreinfo-features{
     margin-top: 50px;
+    padding-bottom: 60px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -113,4 +114,32 @@ section .moreinfo-header h2{
     padding: 5px;
     border: 1px solid #D2A1E3;
     box-shadow: 0px 0px 8px #D2A1E3;
+}
+
+footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: #aaa;
+}
+
+footer p{
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media (max-width:600px){
+    .header-container{
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    header{
+        height: fit-content;
+    }
+
+    .header-divisor{
+        display:none;
+    }
 }
